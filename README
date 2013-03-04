@@ -1,0 +1,17 @@
+
+MAFW Metadata Receiver Example
+==============================
+
+This watches the MAFW Bus for metadata updates and prints them as they come in.
+Requires: MeeGo 1.2 Harmattan (e.g. N950 or N9).
+
+Build dependencies: libqt4-dev libqmafw-shared0-dev libqmafw0-dev
+
+Historical note: This was the initial try at displaying "currently playing"
+information in what later became Billboard. For the generic use case, it is
+simpler to just read the "Media.NowPlaying" ContextKit property, but this
+might still be useful in situations where you want to get detailed metadata.
+
+
+2012-05-15 Thomas Perl <m@thp.io>
+
